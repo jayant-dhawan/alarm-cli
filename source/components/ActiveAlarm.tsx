@@ -30,7 +30,7 @@ export default function ActiveAlarm() {
 				Press <Text color={'yellowBright'}>s</Text> to snooze Alarm
 			</Text>
 			<Text>Snooze left: {leftSnoozeCount}</Text>
-      <Text>Can only be snoozed on main menu</Text>
+			<Text>Can only be snoozed on main menu</Text>
 			{leftSnoozeCount === 0 && <Text>This alarm can not be snoozed now.</Text>}
 		</Container>
 	);

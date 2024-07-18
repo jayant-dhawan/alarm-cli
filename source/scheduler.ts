@@ -19,9 +19,9 @@ class Scheduler {
 		return schedule.rescheduleJob(job, time);
 	}
 
-  getAllJobs() {  
-    return schedule.scheduledJobs;
-  }
+	getAllJobs() {
+		return schedule.scheduledJobs;
+	}
 
 	cancelJob(job: Job) {
 		return schedule.cancelJob(job);

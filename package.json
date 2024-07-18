@@ -11,7 +11,8 @@
 		"build": "tsc",
 		"dev": "tsc --watch",
 		"cli": "tsc && clear && alarm-cli",
-		"test": "prettier --check . && xo && ava"
+		"test": "prettier --check . && xo && ava",
+		"postbuild": "chmod +x dist/cli.js"
 	},
 	"files": [
 		"dist"
